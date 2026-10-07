@@ -8,6 +8,6 @@ public interface LibroRepository extends JpaRepository<Libro,Long>{
 
     boolean existsByIsbn(String isbn);
 
-    boolean existsByIsbnAndNot(String isbn,Long id);
+    boolean existsByIsbnAndIdNot(String isbn,Long id);
 
 }
